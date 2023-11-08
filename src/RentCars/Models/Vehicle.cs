@@ -13,5 +13,6 @@ public class Vehicle
     public int Year { get; set; }
     public double PricePerDay { get; set; }
     public bool IsRented { get; set; } = false;
+
 }
 
