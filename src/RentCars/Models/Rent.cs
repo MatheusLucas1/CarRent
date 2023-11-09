@@ -19,6 +19,7 @@ public class Rent
         Price = person is PhysicalPerson ? vehicle.PricePerDay * daysRented
             : vehicle.PricePerDay * daysRented * 0.9;
         vehicle.IsRented = true;
+
         person.Debit = Price;
     }
    
